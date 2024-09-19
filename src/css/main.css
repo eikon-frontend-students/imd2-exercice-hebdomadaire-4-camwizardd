@@ -12,3 +12,76 @@ img,
 video {
   display: block;
 }
+
+body {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 40px;
+}
+
+.country-name {
+  text-align: right;
+  width: 100px;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bar {
+  display: flex;
+  gap: 2px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.mobile {
+  background: #ffcc2f;
+}
+
+.desktop {
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+}
+
+.mobile,
+.desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+
+.mobile-swiss {
+  width: 195px;
+}
+
+.desktop-swiss {
+  width: 105px;
+}
+
+.mobile-usa {
+  width: 153px;
+}
+
+.desktop-usa {
+  width: 147px;
+}
+
+.mobile-europe {
+  width: 123px;
+}
+
+.desktop-europe {
+  width: 177px;
+}
